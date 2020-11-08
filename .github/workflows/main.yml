@@ -33,12 +33,6 @@ jobs:
         gradle grade
         cd ..
       if: always()
-    - name: Grade lab
-      run: |
-        cd lab
-        gradle grade
-        cd ..
-      if: always()
     - name: Grade repository
       run: |
         gradle grade

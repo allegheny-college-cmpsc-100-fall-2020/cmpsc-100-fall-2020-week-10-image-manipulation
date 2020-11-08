@@ -1,0 +1,32 @@
+---
+name: cmpsc-100-week-10-worksheets
+break: true
+indent: 4
+---
+
+cropped.png:
+    ConfirmFileExists
+    
+pasted.png:
+    ConfirmFileExists
+    
+resized.png:
+    ConfirmFileExists
+    
+rotated90.png:
+    ConfirmFileExists    
+    
+rotated180.png:
+    ConfirmFileExists      
+
+rotated270.png:
+    ConfirmFileExists  
+    
+putPixel.png:
+    ConfirmFileExists 
+    
+Week 10 - Worksheet - ImageManipulation.ipynb:
+    ConfirmFileExists
+    MatchFileFragment --fragment "TODO" --count 0 --exact
+
+ExecuteCommand --command "python3 Week_10_-_Worksheet_-_ImageManipulation.py"
